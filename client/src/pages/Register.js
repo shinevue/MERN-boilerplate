@@ -25,7 +25,7 @@ const Register = () => {
     setUserData({ name: "", email: "", password: "", password2: "" });
   };
   return (
-    <div className="p-10 border w-1/4 m-auto mt-44">
+    <div className="p-10 border w-96 md:w-1/3 lg:w-1/4 m-auto mt-44">
       <div className="w-full m-auto">
         <div className="text-center text-3xl text-green-500">
           <p>Register</p>
